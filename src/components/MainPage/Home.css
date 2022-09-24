@@ -3,6 +3,14 @@
   line-height: 55px;
   margin: 50px 0 20px 0;
 }
+
+.card-container {
+  padding: 24px;
+  overflow: hidden;
+  display: flex;
+  gap: 10px;
+  margin-top: 16px;
+}
 .homeSlide p {
   margin: 20px 0;
 }
@@ -26,4 +34,39 @@
   top: 2px;
   left: 0;
   margin: auto;
+}
+@media (max-width: 768px) {
+  .card-container {
+    width: 500px;
+    background-color: #eae1e6;
+    padding: 24px;
+    overflow: hidden;
+    display: flex;
+    gap: 10px;
+    margin-top: 16px;
+  }
+
+  .card-details {
+    width: 50%;
+  }
+
+  .card-image {
+    width: 80px;
+    height: 80px;
+  }
+
+  .homeSlide h1 {
+    font-size: 28px;
+    line-height: 28px;
+    margin: 50px 0 20px 0;
+  }
+
+  .homeSlide p {
+    margin: 16px 0;
+  }
+
+  .homeSlide ul {
+    position: absolute;
+    bottom: -50px;
+  }
 }

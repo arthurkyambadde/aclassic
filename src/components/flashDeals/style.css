@@ -1,4 +1,15 @@
 .flash {
-  background: #f6f9fc;
+  background: hsl(210, 50%, 98%);
   padding: 50px 0;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .box-width {
+    width: 300px;
+  }
+
+  .image-width {
+    width: 100px;
+  }
 }
